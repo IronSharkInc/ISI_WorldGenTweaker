@@ -1,0 +1,7 @@
+<configs>
+	<include filename="rwgmixer/district_spawn_weight.xml"/>
+    <include filename="rwgmixer/township_biomes.xml"/>
+	<include filename="rwgmixer/township_count.xml"/>
+	<include filename="rwgmixer/township_tiles.xml"/>
+	<include filename="rwgmixer/trader_biomes.xml"/>
+</configs>

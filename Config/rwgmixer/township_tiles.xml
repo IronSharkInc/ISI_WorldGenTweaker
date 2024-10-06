@@ -1,0 +1,71 @@
+<world_tiles>
+	<!-- 
+		adjust the size of townships
+		- larger townships
+		- more variation in size
+
+		value:
+		- min, max
+
+		ratio of increases: 
+		- tiny		1.00x	1.50x
+		- small		1.25x	2.00x	
+		- medium	1.50x	2.50x
+		- large		1.75x	3.00x
+	-->
+
+	<!-- oldwest -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='tiles']/@value">1,2</set><!-- 1,1 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='tiles']/@value">1,2</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='tiles']/@value">2,3</set><!-- 2,2 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='tiles']/@value">2,3</set><!-- 2,3 -->
+
+	<!-- forest_countrytown -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='forest_countrytown']/property[@name='tiles']/@value">4,6</set><!-- 4,4 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='forest_countrytown']/property[@name='tiles']/@value">5,8</set><!-- 4,4 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='forest_countrytown']/property[@name='tiles']/@value">6,10</set><!-- 4,5 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='forest_countrytown']/property[@name='tiles']/@value">7,12</set><!-- 4,5 -->
+
+	<!-- bforest_countrytown -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">4,6</set><!-- 4,5 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">5,8</set><!-- 4,5 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">6,10</set><!-- 5,6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_countrytown']/property[@name='tiles']/@value">7,12</set><!-- 5,6 -->
+
+	<!-- bforest_town -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_town']/property[@name='tiles']/@value">6,9</set><!-- 6,7 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_town']/property[@name='tiles']/@value">8,12</set><!-- 6,7 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_town']/property[@name='tiles']/@value">9,15</set><!-- 6,7 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_town']/property[@name='tiles']/@value">11,18</set><!-- 7,8 -->
+
+	<!-- countrytown -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='tiles']/@value">5,8</set><!-- 5,6 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='tiles']/@value">6,10</set><!-- 5,6 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='tiles']/@value">8,13</set><!-- 5,6 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='tiles']/@value">9,15</set><!-- 5,6 -->
+
+	<!-- town -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='tiles']/@value">7,11</set><!-- 7,8 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='tiles']/@value">9,14</set><!-- 7,8 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='tiles']/@value">11,18</set><!-- 7,8 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='tiles']/@value">12,21</set><!-- 7,8 -->
+
+	<!-- city -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='tiles']/@value">10,15</set><!-- 10,15 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='tiles']/@value">13,20</set><!-- 10,15 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='tiles']/@value">15,25</set><!-- 10,15 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='tiles']/@value">18,30</set><!-- 10,15 -->
+
+	<!-- wasteland_city -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='wasteland_city']/property[@name='tiles']/@value">7,11</set><!-- 7,14 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='wasteland_city']/property[@name='tiles']/@value">9,14</set><!-- 7,14 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='wasteland_city']/property[@name='tiles']/@value">11,18</set><!-- 7,14 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='wasteland_city']/property[@name='tiles']/@value">12,21</set><!-- 7,14 -->
+
+	<!-- citybig -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='citybig']/property[@name='tiles']/@value">28,42</set><!-- 28,40 -->
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='citybig']/property[@name='tiles']/@value">35,56</set><!-- 28,40 -->
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='citybig']/property[@name='tiles']/@value">42,70</set><!-- 28,40 -->
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='citybig']/property[@name='tiles']/@value">49,84</set><!-- 28,40 -->
+
+</world_tiles>
