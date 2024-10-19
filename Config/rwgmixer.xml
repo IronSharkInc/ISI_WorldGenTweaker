@@ -3,5 +3,6 @@
 	<include filename="rwgmixer/township_biomes.xml"/>
 	<include filename="rwgmixer/township_count.xml"/>
 	<include filename="rwgmixer/township_tiles.xml"/>
-	<include filename="rwgmixer/trader_biomes.xml"/>
+	<!-- Disabling trader_biomes until I can guarantee a trader spawns in the Pine Forest. The introductory quest will break if no trader spanws in the Pine Forest. -->
+	<!-- <include filename="rwgmixer/trader_biomes.xml"/> --> 
 </configs>
