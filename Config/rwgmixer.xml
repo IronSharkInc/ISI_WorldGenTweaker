@@ -1,8 +1,13 @@
 <configs>
-	<include filename="rwgmixer/district_spawn_weight.xml"/>
-	<include filename="rwgmixer/township_biomes.xml"/>
-	<include filename="rwgmixer/township_count.xml"/>
-	<include filename="rwgmixer/township_tiles.xml"/>
-	<!-- Disabling trader_biomes until I can guarantee a trader spawns in the Pine Forest. The introductory quest will break if no trader spanws in the Pine Forest. -->
-	<!-- <include filename="rwgmixer/trader_biomes.xml"/> --> 
+	<!-- increases the size of downtown -->
+	<include filename="rwgmixer/district_spawn_weight.xml" />
+
+	<!-- allows cities to spawn in all biomes -->
+	<include filename="rwgmixer/township_biomes.xml" />
+
+	<!-- increases the number of large cities -->
+	<include filename="rwgmixer/township_count.xml" />
+
+	<!-- increases the size of townships -->
+	<include filename="rwgmixer/township_tiles.xml" />
 </configs>

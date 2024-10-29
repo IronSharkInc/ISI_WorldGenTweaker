@@ -3,6 +3,9 @@
 		adjust the biomes townships spawn in
 		- every biome can spawn every non-biome specific township
 	-->
+
+	<!-- comments on the right indicate the original values -->
+	 
 	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='biomes']/@value">desert</set>
 	<set xpath="/rwgmixer/township[@name='forest_countrytown']/property[@name='biomes']/@value">forest</set>
 	<set xpath="/rwgmixer/township[@name='bforest_countrytown']/property[@name='biomes']/@value">burntforest</set>

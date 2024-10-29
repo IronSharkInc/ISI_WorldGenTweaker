@@ -14,6 +14,8 @@
 		- large		1.75x	3.00x
 	-->
 
+	<!-- comments on the right indicate the original values -->
+
 	<!-- oldwest -->
 	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='tiles']/@value">1,2</set><!-- 1,1 -->
 	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='tiles']/@value">1,2</set>

@@ -1,8 +1,11 @@
 <district_spawn_weight>
 	<!-- 
-		adjust the concentration of the differnt districts 
+		adjust the concentration of the different districts 
 		- more downtown
 	-->
+
+	<!-- comments on the right indicate the original values -->
+
 	<set xpath="/rwgmixer/district[@name='countrytown']/property[@name='spawn_weight']/@value">0.5</set>
 	<set xpath="/rwgmixer/district[@name='countryresidential']/property[@name='spawn_weight']/@value">1</set>
 	<set xpath="/rwgmixer/district[@name='commercial']/property[@name='spawn_weight']/@value">0.4</set>
