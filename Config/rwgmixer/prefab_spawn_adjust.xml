@@ -1,0 +1,19 @@
+<prefab_spawn_adjust>
+    
+    <!-- Increase the probability of certain POIs:
+        - book pois
+        - minimum of 5
+        - increase probability of additional spawn (bias 1 -> 20)
+    -->
+
+    <append xpath="//rwgmixer">
+        <!-- wright residence -->
+        <prefab_spawn_adjust partial_name="house_old_mansard_07" bias="20" min_count="5" />
+        <!-- crack-a-book -->
+        <prefab_spawn_adjust partial_name="store_book_01" bias="20" min_count="5" />
+        <!-- crack-a-cafe -->
+        <prefab_spawn_adjust partial_name="store_book_02" bias="20" min_count="5" />
+        <!-- book barn -->
+        <prefab_spawn_adjust partial_name="store_book_04" bias="20" min_count="5" />
+    </append>
+</prefab_spawn_adjust>

@@ -1,0 +1,19 @@
+<preview_color>
+
+    <!-- Change the preview colors of the districts:
+		- Updated commercial, residential, and forest_rural so every district has a unique color
+	-->
+	
+	<set xpath="//district[@name='wilderness']/property[@name='preview_color']/@value">0.25,0.25,0.25</set><!-- dark grey -->
+	<set xpath="//district[@name='countrytown']/property[@name='preview_color']/@value">0,0,1</set><!-- blue -->
+	<set xpath="//district[@name='commercial']/property[@name='preview_color']/@value">0,0,0.5</set><!-- ***navy blue*** -->
+	<set xpath="//district[@name='countryresidential']/property[@name='preview_color']/@value">0,1,0</set><!-- lime green -->
+	<set xpath="//district[@name='residential']/property[@name='preview_color']/@value">0,0.5,0</set><!-- ***green*** -->
+	<set xpath="//district[@name='industrial']/property[@name='preview_color']/@value">1,1,0</set><!-- yellow -->
+	<set xpath="//district[@name='rural']/property[@name='preview_color']/@value">0,1,1</set><!-- light blue -->
+	<set xpath="//district[@name='forest_rural']/property[@name='preview_color']/@value">0,0.5,1</set><!-- ***slate blue*** -->
+	<set xpath="//district[@name='downtown']/property[@name='preview_color']/@value">0.5,0.5,0.5</set><!-- grey -->
+	<set xpath="//district[@name='oldwest']/property[@name='preview_color']/@value">0.5,0.5,0.1</set><!-- burnt green -->
+	<set xpath="//district[@name='gateway']/property[@name='preview_color']/@value">0.75,0.75,0.75</set><!-- light grey -->
+
+</preview_color>

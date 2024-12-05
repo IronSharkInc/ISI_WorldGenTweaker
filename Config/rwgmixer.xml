@@ -10,4 +10,13 @@
 
 	<!-- increases the size of townships -->
 	<include filename="rwgmixer/township_tiles.xml" />
+
+	<!-- change district preview colors -->
+	<include filename="rwgmixer/preview_color.xml" />
+
+	<!-- add new townships -->
+	<include filename="rwgmixer/new_townships.xml" />
+
+	<!-- increase odds of certain pois -->
+	<include filename="rwgmixer/prefab_spawn_adjust.xml" />
 </configs>
