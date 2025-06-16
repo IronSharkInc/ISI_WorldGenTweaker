@@ -16,4 +16,7 @@
 
 	<!-- increase odds of certain pois -->
 	<include filename="rwgmixer/prefab_spawn_adjust.xml" />
+
+	<!-- other township adjustments -->
+	<include filename="rwgmixer/township_adjustments.xml" />
 </configs>

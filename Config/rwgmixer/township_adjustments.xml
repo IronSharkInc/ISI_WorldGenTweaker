@@ -1,0 +1,9 @@
+<township>
+
+	<!-- allow traders to spawn in oldwest -->
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_trader']/@value">true</set>
+
+	<!-- connect old west to highways between towns -->
+	<set xpath="/rwgmixer/township[@name='oldwest']/property[@name='spawn_gateway']/@value">true</set>
+
+</township>
